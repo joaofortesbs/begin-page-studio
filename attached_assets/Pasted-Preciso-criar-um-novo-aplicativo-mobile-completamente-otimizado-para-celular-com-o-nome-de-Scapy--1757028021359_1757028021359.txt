@@ -1,0 +1,19 @@
+Preciso criar um novo aplicativo mobile, completamente otimizado para celular, com o nome de Scapy, e esse aplicativo vai vai ser composto por 5 seções, que vão ficar como um menu base da plataforma (Vai ter um arquivo especifico para cada seção, com a interface desing dessas seções), as seções vão ser:
+
+- Scapy IA
+- Biblioteca
+- Painel
+- Desempenho
+- Comunidade
+
+A seção padrão da plataforma vai ser a de Painel, e a interface vai ser configurada da seguinte maneira:
+
+No canto superior esquerdo da interface vai vai ter a logo da plataforma (A mesma imagem que eu te enviei agora, com as proporções 1 para 1, pode salvar com o nome de "logo-scapy.png")! E no canto superior direito, vai ter um componente arredondado, que vai guardar a imagem de perfil do usuáio, e esse componente vai ter uma borda gradiente com a cor #00F6FF! E ao lado esquerdo desse componente, vai ter um componente de Objetivos, representado por um icone de alvo, com a cor #00F6FF!!!!!!!
+
+Abaixo desses componentes, vai ter um componente chamado Semana NoFap, que vai ser 7 componentes circulares, com uma letra central dentro de cada circulo, representando os dias da semana, e inicialmente esses circulos vão estar com as bordas arredondadas tracejadas, e quando o usuário concluir o dia, o circulo fica com a cor verde, e com a borda arredondada sólida!!!!!!!
+
+Abaixo desses componentes, de maneira centralizada, vai ter um componente de avatar, que vai ser inicialmente uma imagem, que é a mesma imagem de um homem das cavernas que eu te enviei, com as proporções 1 para 1! E abaixo dessa imagem, vai ter um cronometro progressivo infinito de (00:00:00), mas em cima desse cronometro vai ter um pequeno texto de "Você está livre da pornografia há:" e assim que o usuário acessar a sua conta, o cronometro vai começar a contar! E quando o cronometro chegar a 24 horas, o cronometro vai se transformar em um texto de 1 DIA, e abaixo desse texto vai aparecer um componente retangular com as bordas arredondadas, e dentro desse componente vai ter um cronometro progressivo começando de (00:00:00)!!!!!!! E ambos esses componentes vão ser conectados, porque sempre que completar um novo dia, vai contar para (1 DIA, 2 DIAS, 3 DIAS, etc...)! Você pode criar um arquivo especifico para esses dois cronometros, para ficar mais organizado, com o nome de "Cronometro Nofap"!!!!!!!
+
+Faça que as outras seções que a gente ainda não configurou, fiquem inativas por equanto!
+
+Faça que toda a indetidade visual de dentro da plataforma, de todos os componentes também, vai ser com as seguintes cores: (70% #000515) e (30% #00F6FF)!!!!!!!
