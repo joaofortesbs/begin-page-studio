@@ -56,7 +56,7 @@ export default function Dashboard() {
           </section>
         </div>
 
-        <div className="-mt-8">
+        <div className="-mt-12">
           <AIAssistant />
         </div>
         
