@@ -114,7 +114,7 @@
 
   .timer-display {
     font-family: 'Fira Code', 'Courier New', monospace;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--scapy-cyan);
     font-weight: bold;
     text-align: center;
@@ -178,7 +178,7 @@
 
   @media (max-width: 640px) {
     .timer-display {
-      font-size: 2.25rem;
+      font-size: 3rem;
     }
     
     .avatar-container {

@@ -17,19 +17,19 @@ export default function DailyGoals() {
           </div>
         </div>
 
-        <Card className="bg-secondary/30 border-border pt-8 rounded-3xl">
+        <Card className="border-border pt-8 rounded-3xl" style={{ backgroundColor: 'rgba(0, 5, 21, 0.73)' }}>
           <CardContent className="p-6">
-            <div className="flex flex-col items-center justify-center space-y-2 min-h-[100px]">
+            <div className="flex flex-col items-center justify-center space-y-2 min-h-[120px]">
               <Button
                 variant="ghost"
-                className="flex flex-col items-center space-y-2 hover:bg-primary/10 transition-colors p-4"
+                className="flex flex-col items-center space-y-3 hover:bg-primary/10 transition-colors p-6"
                 onClick={handleAddGoal}
                 data-testid="button-add-goal"
               >
-                <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
-                  <Plus className="w-6 h-6 text-primary" />
+                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
+                  <Plus className="w-8 h-8 text-primary" />
                 </div>
-                <span className="text-sm text-muted-foreground text-center">
+                <span className="text-base text-muted-foreground text-center font-medium">
                   Adicione suas próprias metas!
                 </span>
               </Button>

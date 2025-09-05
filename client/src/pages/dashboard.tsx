@@ -38,7 +38,7 @@ export default function Dashboard() {
       <div className="relative z-10">
         <Header />
       
-      <main className="flex-1 px-4 pb-40 space-y-8">
+      <main className="flex-1 px-4 pb-48 space-y-8">
         <div className="space-y-4">
           <WeeklyTracker weeklyProgress={weeklyProgress} />
           
@@ -61,7 +61,9 @@ export default function Dashboard() {
 
         <AIAssistant />
         
-        <DailyGoals />
+        <div className="mt-12">
+          <DailyGoals />
+        </div>
       </main>
       </div>
 
