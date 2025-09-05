@@ -183,8 +183,8 @@
 
   .base-sections {
     border-radius: 0;
-    padding: 12px;
-    gap: 8px;
+    padding: 8px;
+    gap: 4px;
   }
 
   @media (max-width: 640px) {

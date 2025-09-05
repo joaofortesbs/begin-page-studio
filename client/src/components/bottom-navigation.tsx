@@ -38,6 +38,7 @@ export default function BottomNavigation({
             <div className="w-10 h-10 rounded-full bg-secondary/20 border-2 border-scapy-cyan flex items-center justify-center">
               <Icon className="w-5 h-5" />
             </div>
+            <span className="gap-4px font-size: 0.75rem; font-weight: 800;">{label}</span>
           </button>
         ))}
       </div>
