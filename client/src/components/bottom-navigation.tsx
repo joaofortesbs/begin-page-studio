@@ -35,10 +35,10 @@ export default function BottomNavigation({
             onClick={() => onSectionChange(id)}
             data-testid={`nav-${id}`}
           >
-            <div className="w-10 h-10 rounded-full bg-secondary/20 border-2 border-scapy-cyan flex items-center justify-center">
+            <div className="w-10 h-10 bg-secondary/20 border-2 border-scapy-cyan flex items-center justify-center">
               <Icon className="w-5 h-5" />
             </div>
-            <span className="gap-4px font-size: 0.75rem; font-weight: 800;">{label}</span>
+            <span className="text-xs font-extrabold">{label}</span>
           </button>
         ))}
       </div>
