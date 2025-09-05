@@ -166,10 +166,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
-    font-size: 0.75rem;
-    font-weight: 800;
+    justify-content: center;
     transition: all 0.2s ease;
+  }
+  
+  .nav-item svg {
+    stroke-width: 3;
+    font-weight: 900;
   }
 
   .nav-item.active {
