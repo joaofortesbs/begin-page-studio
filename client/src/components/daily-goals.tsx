@@ -26,10 +26,10 @@ export default function DailyGoals() {
                 onClick={handleAddGoal}
                 data-testid="button-add-goal"
               >
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
-                  <Plus className="w-8 h-8 text-primary" />
+                <div className="w-20 h-20 rounded-full bg-primary/20 flex items-center justify-center">
+                  <Plus className="w-12 h-12 text-primary" />
                 </div>
-                <span className="text-base text-muted-foreground text-center font-medium">
+                <span className="text-lg text-muted-foreground text-center font-medium">
                   Adicione suas próprias metas!
                 </span>
               </Button>

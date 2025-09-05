@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Target } from "lucide-react";
 
 export default function Header() {
 
@@ -19,6 +20,7 @@ export default function Header() {
       <div className="flex items-center space-x-3">
         <div className="gradient-border w-12 h-12" data-testid="empty-circle-container">
           <div className="gradient-border-inner flex items-center justify-center">
+            <Target className="w-6 h-6 text-primary" />
           </div>
         </div>
 

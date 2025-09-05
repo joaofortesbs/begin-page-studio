@@ -6,8 +6,7 @@ import AIAssistant from "@/components/ai-assistant";
 import DailyGoals from "@/components/daily-goals";
 import PanicButton from "@/components/panic-button";
 import BottomNavigation from "@/components/bottom-navigation";
-import { ShootingStars } from "@/components/ui/shooting-stars";
-import { StarsBackground } from "@/components/ui/stars-background";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { useQuery } from "@tanstack/react-query";
 import type { User, WeeklyProgress } from "@shared/schema";
@@ -33,8 +32,6 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen flex flex-col max-w-md mx-auto bg-background relative overflow-hidden">
-      <ShootingStars />
-      <StarsBackground />
       <div className="relative z-10">
         <Header />
       
@@ -47,7 +44,7 @@ export default function Dashboard() {
               <img 
                 src="/caveman-avatar.png" 
                 alt="Avatar Caveman" 
-                className="w-60 h-60 object-contain mx-auto"
+                className="w-72 h-72 object-contain mx-auto"
                 onError={(e) => {
                   e.currentTarget.src = "https://api.dicebear.com/7.x/adventurer/svg?seed=caveman&backgroundColor=000515";
                 }}
@@ -59,7 +56,9 @@ export default function Dashboard() {
           </section>
         </div>
 
-        <AIAssistant />
+        <div className="-mt-4">
+          <AIAssistant />
+        </div>
         
         <div className="mt-12">
           <DailyGoals />
