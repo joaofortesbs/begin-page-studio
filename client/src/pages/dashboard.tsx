@@ -44,7 +44,7 @@ export default function Dashboard() {
               <img 
                 src="/caveman-avatar.png" 
                 alt="Avatar Caveman" 
-                className="w-72 h-72 object-contain mx-auto"
+                className="w-80 h-80 object-contain mx-auto"
                 onError={(e) => {
                   e.currentTarget.src = "https://api.dicebear.com/7.x/adventurer/svg?seed=caveman&backgroundColor=000515";
                 }}
@@ -56,7 +56,7 @@ export default function Dashboard() {
           </section>
         </div>
 
-        <div className="-mt-4">
+        <div className="-mt-8">
           <AIAssistant />
         </div>
         
