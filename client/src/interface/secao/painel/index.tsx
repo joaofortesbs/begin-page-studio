@@ -25,12 +25,16 @@ import type { User, WeeklyProgress } from "@shared/schema";
 function Header() {
   return (
     <header className="p-4 flex items-center justify-between">
-      <div className="w-34 h-34 flex items-center">
-        <ScapyIcon 
-          size={64} 
-          className="text-primary hover:text-primary/80 transition-colors"
+      <div className="w-34 h-34">
+        <img 
+          src="/logo-scapy.png" 
+          alt="Logo Scapy" 
+          className="w-32 h-16 object-contain"
+          onError={(e) => {
+            e.currentTarget.src = "https://api.dicebear.com/7.x/shapes/svg?seed=scapy&backgroundColor=00F6FF&shape1Color=000515";
+          }}
+          data-testid="logo-scapy"
         />
-        <span className="ml-2 text-2xl font-bold text-primary">SCAPY</span>
       </div>
 
       <div className="flex items-center space-x-3">
