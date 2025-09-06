@@ -340,8 +340,8 @@ export default function PainelInterface({
       <div className="relative z-10">
         <Header />
       
-        <main className="flex-1 px-4 pb-48 space-y-8">
-          <div className="space-y-4">
+        <main className="flex-1 px-4 pb-48">
+          <div className="space-y-6">
             <WeeklyTracker weeklyProgress={weeklyProgress} />
             
             <section className="text-center">
@@ -361,11 +361,11 @@ export default function PainelInterface({
             </section>
           </div>
 
-          <div className="-mt-20">
+          <div className="mt-6">
             <AIAssistant />
           </div>
           
-          <div className="mt-32">
+          <div className="daily-goals-section">
             <DailyGoals />
           </div>
         </main>
