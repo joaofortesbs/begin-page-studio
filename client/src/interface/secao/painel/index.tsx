@@ -365,7 +365,7 @@ export default function PainelInterface({
             <AIAssistant />
           </div>
           
-          <div className="mt-12">
+          <div className="mt-20">
             <DailyGoals />
           </div>
         </main>
