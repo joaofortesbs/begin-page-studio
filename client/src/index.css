@@ -134,8 +134,12 @@
   }
 
   .panic-button {
-    background: linear-gradient(45deg, #dc2626, #ef4444, #f87171);
+    background: linear-gradient(45deg, #dc2626, #ef4444, #f87171) !important;
     animation: panic-glow 2s ease-in-out infinite alternate;
+  }
+
+  .panic-button:hover {
+    background: linear-gradient(45deg, #b91c1c, #dc2626, #ef4444) !important;
   }
 
   @keyframes panic-glow {

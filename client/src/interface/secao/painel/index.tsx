@@ -271,7 +271,7 @@ function PanicButton() {
     <div className="p-4 pb-2">
       <Button 
         onClick={handlePanicClick}
-        className="w-full h-14 bg-red-600 hover:bg-red-700 text-white font-bold text-lg rounded-full shadow-lg"
+        className="w-full panic-button text-white border-0 h-14 rounded-full transition-all duration-300 shadow-lg font-bold text-lg"
         data-testid="panic-button"
       >
         🚨 BOTÃO DE PÂNICO
