@@ -89,6 +89,8 @@ export class MemStorage implements IStorage {
     const weeklyProgress: WeeklyProgress = {
       id: existing?.id || randomUUID(),
       ...progress,
+      currentStreak: progress.currentStreak ?? 0,
+      bestStreak: progress.bestStreak ?? 0,
     };
     
     this.weeklyProgress.set(key, weeklyProgress);
@@ -107,6 +109,7 @@ export class MemStorage implements IStorage {
       ...goal,
       id,
       createdAt: new Date(),
+      isActive: goal.isActive ?? true,
     };
     this.userGoals.set(id, userGoal);
     return userGoal;
