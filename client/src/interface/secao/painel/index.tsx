@@ -297,7 +297,7 @@ function BottomNavigation({
 
   return (
     <nav className="bg-transparent">
-      <div className="flex justify-around py-3">
+      <div className="flex justify-center space-x-4 py-3">
         {navItems.map(({ id, label, icon: Icon, inactive }) => (
           <button
             key={id}
